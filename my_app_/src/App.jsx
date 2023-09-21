@@ -1,5 +1,6 @@
 import UserContextProvider from './Context'
 import { Input } from './Input'
+import  Referencias  from './Referencias'
 
 
 
@@ -11,8 +12,13 @@ function App({}) {
     <>
     
       <UserContextProvider>
+
         <Input/> 
+
       </UserContextProvider>
+
+
+      <Referencias> </Referencias>
     </>
   )
 }
